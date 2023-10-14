@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/37c4a7a2c4.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="box-border m-0 p-0 bg-zinc-700">
+    <nav class="flex relative w-full h-12 bg-transparent gap-2 text-white justify-end">
+        <button class="text-sm hover:underline decoration-solid">Gmail</button>
+        <Button class="text-sm hover:underline decoration-solid">Imagenes</Button>
+        <button class=" hover:bg-zinc-600 rounded-full p-3 "><img width="22" height="22"
+                src="https://img.icons8.com/material-outlined/24/FFFFFF/squared-menu.png" alt="squared-menu" /></button>
+        <button class=" mr-2 p-3 rounded-full  hover:bg-zinc-600"><img width="22" height="22"
+                src="https://img.icons8.com/pastel-glyph/64/FFFFFF/user-male-circle.png"
+                alt="user-male-circle" /></button>
+    </nav>
+    <main>
+        <!----LOGO-->
+        <div class="flex relative h-52 justify-center ">
+            <img class="flex relative w-56 h-[80px] top-24"
+                src="https://white.logodownload.org/wp-content/uploads/2020/11/google-white-logo.png" alt="logo">
+        </div>
+        <!---Busqueda-->
+        <div class="flex relative h-12 justify-center ">
+            <button dir="ltr" class="rounded-s-full w-12 bg-white cursor-default"><i
+                    class="fas fa-search text-gray-400"></i></button>
+            <input type="search" id="search" name="search" placeholder="Buscar en Google o escrbir una URL"
+                class="w-2/6 ">
+            <button class="bg-white w-10"><img class="w-[35px] h-[30px]"
+                    src="https://cdn.icon-icons.com/icons2/2642/PNG/512/google_mic_logo_icon_159335.png"
+                    alt="microfono"></i></button>
+            <button dir="rtl" class="flex justify-center  items-center bg-white rounded-s-full w-12 pr-2"><img
+                    class="w-[22px] h-[20px]"
+                    src="https://static.vecteezy.com/system/resources/thumbnails/022/484/512/small_2x/google-lens-icon-logo-symbol-free-png.png"
+                    alt="camara"></button>
+        </div>
+        <!---recuadros-->
+        <div class="flex relative w-full h-[375px] justify-center">
+            <div class="grid grid-cols-4 w-[450px] h-80 m-7 ">
+                <div class="flex flex-col justify-center  items-center  hover:bg-zinc-400 rounded-lg">
+                    <button class="rounded-full bg-zinc-800 text-2xl p-3 w-[55px] h-[55px]"><i
+                            class="fab fa-youtube text-red-600"></i></button>
+                    <p class="text-xs m-1 text-white">Youtube</p>
+                </div>
+                <div class="flex flex-col justify-center items-center  hover:bg-zinc-400 rounded-lg">
+                    <button class="rounded-full bg-zinc-800 text-2xl p-3 w-[55px] h-[55px]"><i
+                            class="fab fa-wikipedia-w text-white"></i></button>
+                    <p class="text-xs m-1  text-white">How to creat...</p>
+                </div>
+                <div class="flex flex-col justify-center items-center  hover:bg-zinc-400 rounded-lg">
+                    <button class="rounded-full bg-zinc-800 w-[55px] h-[55px]"><i
+                            class="fa-brands fa-html5 text-2xl p-3 text-orange-600 "></i></button>
+                    <p class="text-xs m-1  text-white">Lenguaje HTML</p>
+                </div>
+                <div class="flex flex-col justify-center items-center hover:bg-zinc-400 rounded-lg">
+                    <button class="rounded-full bg-zinc-800 text-2xl p-3 w-[55px] h-[55px]"><i
+                            class="fab fa-css3-alt text-2xl text-blue-600"></i></button>
+                    <p class="text-xs m-1  text-white">Lenguaje CSS</p>
+                </div>
+                <div class="flex flex-col justify-center items-center hover:bg-zinc-400 rounded-lg">
+                    <button class="rounded-full bg-zinc-800 text-2xl p-3 w-[55px] h-[55px]"><i
+                            class="fas fa-car text-2xl text-yellow-300"></i></button>
+                    <p class="text-xs m-1  text-white">TuCarro en M...</p>
+                </div>
+                <div class="flex flex-col justify-center items-center hover:bg-zinc-400 rounded-lg">
+                    <button class="rounded-full bg-zinc-800 text-2xl p-3 w-[55px] h-[55px]"><i
+                            class="far fa-flag text-2xl text-blue-700"></i></button>
+                    <p class="text-xs m-1  text-white">Fontaewsome</p>
+                </div>
+                <div class="flex flex-col justify-center items-center hover:bg-zinc-400 rounded-lg">
+                    <button class="rounded-full bg-zinc-800 text-2xl p-3 w-[55px] h-[55px]"> <img
+                            src="https://w7.pngwing.com/pngs/1009/249/png-transparent-logo-sass-logos-and-brands-icon-thumbnail.png"
+                            alt=""></button>
+                    <p class="text-xs m-1  text-white">Sass</p>
+                </div>
+                <div class="flex flex-col justify-center items-center hover:bg-zinc-400 rounded-lg">
+                    <button class="rounded-full bg-zinc-800 text-2xl p-3 w-[55px] h-[55px]"> <img
+                            class="w-[30px] h-[20px]"
+                            src="https://s1.eestatic.com/2019/04/09/elandroidelibre/el_androide_libre_389724798_179678208_1706x960.jpg"
+                            alt="drive"></button>
+                    <p class="text-xs m-1  text-white">Compartido con...</p>
+                </div>
+                <div class="flex flex-col justify-center items-center hover:bg-zinc-400 rounded-lg">
+                    <button class="rounded-full bg-zinc-800 text-2xl p-3 w-[55px] h-[55px]"> <img
+                            src="https://image.similarpng.com/very-thumbnail/2020/06/Logo-google-icon-PNG.png"
+                            alt=""></i></button>
+                    <p class="text-xs m-1  text-white">Buscar con G...</p>
+                </div>
+                <div class="flex flex-col justify-center items-center hover:bg-zinc-400 rounded-lg left-24">
+                    <button class="rounded-full bg-zinc-800 text-2xl p-3 w-[55px] h-[55px] text-white"><i
+                            class="fas fa-plus"></i></button>
+                    <p class="text-xs m-1  text-white ">Añadir atajo</p>
+                </div>
+            </div>
+    </main>
+    <footer>
+        <div class="flex justify-end text-blue-400 text-sm m-3">
+            <button class=" rounded-full bg-zinc-800 w-[200px] h-[35px]"><i
+                    class="fa-solid fa-pen mr-2"></i>Personalizar Chrome</button>
+        </div>
+    </footer>
+    </div>
+</body>
+
+</html>
